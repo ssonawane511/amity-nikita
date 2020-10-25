@@ -1,93 +1,164 @@
+/** @format */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
 body {
-  }
+}
 
 .header {
   background-image: url(../Assets/Images/back-2.jpg);
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat ;
+  background-repeat: no-repeat;
+}
+.last {
+  background: #000000ab;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+.form-container {
+  margin-top: 20px;
+  width: 100%;
+  padding: 30px;
+  max-width: 400px;
+  background-color: white;
+  border-radius: 20px;
+  font-family: sans-serif;
+  transition: all 0.3s ease-in-out;
 }
 
-  .form-container {
-    margin: 6% auto;
-    margin-top: 20px;
-    width: 100%;
-    padding: 30px;
-    max-width: 400px;
-    background-color: white;
-    border-radius: 20px;
-    font-family: sans-serif;
-    transition: all 0.3s ease-in-out;
-  }
+.v-divider {
+  border-right: 1px solid white;
+}
 
- 
- .v-divider {
-  
-    border-right:1px solid white;
-   }
+.v-divider h2 {
+  font-size: 20px;
+}
+.about__number {
+  padding: 50px;
+}
 
-   .about__number{
-     margin:30px 10px 10px;
-   }
-   
-   .about__numbe .h2 {
-     font-size: 20px;
-     font-weight: 400;
-   }
+.about__number .h2 {
+  font-size: 10px;
+  font-weight: 400;
+}
 
-   .about__number h1{
-     font-size: 65px;
-     font-weight: 600;
-   }
+.about__number h1 {
+  font-size: 65px;
+  font-weight: 600;
+}
+
+.about__number p {
+  font-size: 20px;
+}
 .text-block {
-    position: absolute;
-    color: white;
-    margin-left: 0px;
+  position: absolute;
+  color: white;
+  margin-left: 0px;
 }
 
 .brand {
-    background-image: url(../Assets/PNG/back-2.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(../Assets/PNG/back-2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /*  */
 .about {
-  background: rgb(16, 16, 177);
+  background: #00658f;
+  padding: 30px 0;
 }
 
 .about .col-3 {
   text-align: center;
-  padding : 20px;
+  padding: 20px;
 }
 
-.logos .col{
+.logos .col {
   background-image: url(../Assets/PNG/logo1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
+}
+.award {
+  padding: 50px 0 20px;
 }
 
+.Accreditations {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.705);
+}
+.Accreditations h2 {
+  color: #035072;
+  margin: 20px 0px;
+  font-weight: 700;
+}
+.Accreditations .row {
+  padding: 10px 0;
+}
 
-@media (max-width:800px)
+.Accreditations .row img {
+  margin: 0 10px;
+}
 
-{ 
-  .about__number .col-3{padding:0px;}
-  .about__number h1{
+.college {
+  display: inline-block;
+  color: #035072;
+}
+.logos {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.logo_content {
+  background-color: rgba(0, 0, 0, 0.678);
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #035072;
+  text-align: center;
+  margin: 30px 0;
+}
+.box {
+  border: 2px solid yellow;
+  color: #055f86;
+  font-size: 50px !important;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.mt-40 {
+  margin-bottom: 40px;
+}
+.sixth-container {
+  padding: 20px;
+}
+
+.table {
+  margin-top: 50px;
+}
+@media (max-width: 800px) {
+  .about__number .col-3 {
+    padding: 0px;
+  }
+  .about__number h1 {
     font-size: 40px;
     font-weight: 600;
   }
 }
-@media (max-width:990px) {
+@media (max-width: 990px) {
   .fourth-container {
-    
   }
 }
-
-
-
-
-
-
-
