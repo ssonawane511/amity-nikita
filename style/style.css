@@ -1,0 +1,93 @@
+body {
+  }
+
+.header {
+  background-image: url(../Assets/Images/back-2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat ;
+}
+
+  .form-container {
+    margin: 6% auto;
+    margin-top: 20px;
+    width: 100%;
+    padding: 30px;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    font-family: sans-serif;
+    transition: all 0.3s ease-in-out;
+  }
+
+ 
+ .v-divider {
+  
+    border-right:1px solid white;
+   }
+
+   .about__number{
+     margin:30px 10px 10px;
+   }
+   
+   .about__numbe .h2 {
+     font-size: 20px;
+     font-weight: 400;
+   }
+
+   .about__number h1{
+     font-size: 65px;
+     font-weight: 600;
+   }
+.text-block {
+    position: absolute;
+    color: white;
+    margin-left: 0px;
+}
+
+.brand {
+    background-image: url(../Assets/PNG/back-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*  */
+.about {
+  background: rgb(16, 16, 177);
+}
+
+.about .col-3 {
+  text-align: center;
+  padding : 20px;
+}
+
+.logos .col{
+  background-image: url(../Assets/PNG/logo1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+@media (max-width:800px)
+
+{ 
+  .about__number .col-3{padding:0px;}
+  .about__number h1{
+    font-size: 40px;
+    font-weight: 600;
+  }
+}
+@media (max-width:990px) {
+  .fourth-container {
+    
+  }
+}
+
+
+
+
+
+
+
